@@ -39,7 +39,7 @@ public class smallPlanets : MonoBehaviour
        if(!TryGetTouchPosition(out Vector2 touchPosition))
        return;
 
-       if(_arRaycastManager.Raycast(touchPosition, hits, TrackableType.All)) //Change TrackableType to "TrackableType.All"
+       if(_arRaycastManager.Raycast(touchPosition, hits, TrackableType.All))"
        {
            var hitPose = hits[0].pose;
 
